@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tethre USDT — Token</title>
+  <style>
+    :root { --bg: #26a0b6; --card:#fff; --muted:#333; --accent:#000; }
+    body { margin:0; font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:var(--bg); color:var(--muted); }
+    .wrap { max-width:900px; margin:40px auto; padding:24px; }
+    .hero { display:flex; gap:24px; align-items:center; background:rgba(255,255,255,0.06); padding:24px; border-radius:16px; box-shadow:0 6px 20px rgba(0,0,0,0.08); }
+    .logo { width:120px; height:120px; flex:0 0 120px; display:flex; align-items:center; justify-content:center; border-radius:20px; background:transparent; }
+    .logo img { width:100%; height:100%; object-fit:contain; border-radius:12px; background:transparent; }
+    .meta h1 { margin:0; font-size:28px; color:#111; }
+    .meta p { margin:6px 0 0; color:#222; }
+    .card { margin-top:20px; background:var(--card); padding:18px; border-radius:12px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+    .grid { display:flex; gap:12px; flex-wrap:wrap; }
+    .box { flex:1 1 220px; background:#fafafa; padding:12px; border-radius:10px; }
+    .muted { color:#666; font-size:14px; }
+    a.button { display:inline-block; padding:10px 14px; background:#111; color:#fff; border-radius:10px; text-decoration:none; margin-top:12px; }
+    footer { margin-top:20px; font-size:13px; color:#333; text-align:center; }
+    code.addr { display:block; word-break:break-all; background:#f3f3f3; padding:8px; border-radius:8px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="logo"><img src="logo.jpg" alt="Tethre USD logo"></div>
+      <div class="meta">
+        <h1>Tethre USD <small style="font-size:14px;color:#444">(USD)</small></h1>
+        <p class="muted">A decentralized token on Binance Smart Chain — fast, transparent, and community-driven.</p>
+        <p style="margin-top:12px;"><a class="button" href="#add">Add token to wallet</a></p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Token details</h3>
+      <div class="grid" style="margin-top:12px;">
+        <div class="box">
+          <strong>Contract</strong>
+          <div><code class="addr">0xd4B291A909E11caFe9D3cafCA32929d26Fa4FaDd</code></div>
+          <div class="muted">Binance Smart Chain (BEP-20)</div>
+        </div>
+        <div class="box">
+          <strong>Symbol</strong>
+          <div>USDT</div>
+          <div class="muted">Display symbol: USD</div>
+        </div>
+        <div class="box">
+          <strong>Contact</strong>
+          <div>Traytray04190@gmail.com</div>
+          <div class="muted">Use this email for official inquiries</div>
+        </div>
+      </div>
+
+      <h3 style="margin-top:16px;">About</h3>
+      <p class="muted">Tethre USD is a community token designed for safe transfers and easy integration on Binance Smart Chain. This page provides verified contract information and a quick way to add the token to wallets.</p>
+
+      <h3 id="add" style="margin-top:16px;">Add token to MetaMask / Wallet</h3>
+      <p class="muted">To add manually to MetaMask or other wallets, use the contract address above and this token info:</p>
+      <ul>
+        <li>Contract: <code class="addr">0xd4B291A909E11caFe9D3cafCA32929d26Fa4FaDd</code></li>
+        <li>Symbol: <strong>USDT</strong></li>
+        <li>Decimals: <strong>6</strong> <!-- if different, update before publishing --></li>
+      </ul>
+      <p class="muted">You can also paste the contract address into PancakeSwap or other DEXs to trade (ensure you trust the contract before interacting).</p>
+
+      <div style="margin-top:18px;">
+        <a class="button" href="https://bscscan.com/token/0xd4B291A909E11caFe9D3cafCA32929d26Fa4FaDd" target="_blank" rel="noopener">View on BscScan</a>
+      </div>
+    </div>
+
+    <footer>
+      <div>Published by Tethre USD • <a href="mailto:Traytray04190@gmail.com">Traytray04190@gmail.com</a></div>
+      <div style="margin-top:6px;" class="muted">This is an informational landing page. Do not share private keys. Always verify contract addresses before transacting.</div>
+    </footer>
+
+  </div>
+</body>
+</html>
